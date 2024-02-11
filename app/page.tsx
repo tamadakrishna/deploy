@@ -2,7 +2,7 @@ import axios from "axios";
 
 const page = async()=>{
   const {data} = await  axios.get(`${process.env.API_URL}/api/sample`);
-  // const address = await  axios.get(`${process.env.API_URL}/api/address`);
+  const address = await  axios.get(`${process.env.API_URL}/api/address`);
   return(
     <ul>
       <li>Vercel Env: {process.env.VERCEL_ENV}</li>
