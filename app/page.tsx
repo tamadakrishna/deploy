@@ -9,7 +9,7 @@ const page = async()=>{
       <li>Environment Var: {process.env.API_URL}</li>
       <li>DB URI: {process.env.DB_URI}</li>
       <li>Data: {data.message}</li>
-      {/* <li>Address: {address?.data[0]?.street}</li> */}
+      <li>Address: {address.data[0]?.street}</li>
     </ul>
   )
 }
