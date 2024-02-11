@@ -7,8 +7,9 @@ const page = async()=>{
     <ul>
       <li>Vercel Env: {process.env.VERCEL_ENV}</li>
       <li>Environment Var: {process.env.API_URL}</li>
+      <li>DB URI: {process.env.BD_URI}</li>
       <li>Data: {data.message}</li>
-      <li>Address: {address?.data[0]?.street}</li>
+      {/* <li>Address: {address?.data[0]?.street}</li> */}
     </ul>
   )
 }
