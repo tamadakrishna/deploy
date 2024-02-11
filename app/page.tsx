@@ -5,7 +5,7 @@ const page = async()=>{
   return(
     <ul>
       <li>Vercel Env: {process.env.VERCEL_ENV}</li>
-      <li>Environment Var: {process.env.ENV_VAR}</li>
+      <li>Environment Var: {process.env.API_URL}</li>
     </ul>
   )
 }
